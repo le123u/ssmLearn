@@ -9,8 +9,8 @@
         <module name="mybatisday01_01_quish_start" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mybatisday01_01_quish_start" target="1.5" />
+    <bytecodeTargetLevel target="9">
+      <module name="mybatisday01_01_quish_start" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
