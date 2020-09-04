@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -36,21 +36,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday01_01_quish_start/src/main/resources/com/neusoft/dao" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/mybatisday01_03_da0_crud/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources/com/neusoft/dao" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neusoft.test" />
+      <recent name="com.neusoft.domain" />
+      <recent name="com.neusoft.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Liu\Documents\GitHub\ssmLearn\mybatisday01_01_quish_start\src\main\resources\com\neusoft\dao" />
-      <recent name="C:\Users\Liu\Documents\GitHub\ssmLearn\mybatisday01_01_quish_start\src\main\resources" />
+      <recent name="C:\Users\Liu\Documents\GitHub\ssmLearn\mybatisday01_03_dao_crud\src\main\resources\com\neusoft\dao" />
+      <recent name="C:\Users\Liu\Documents\GitHub\ssmLearn\mybatisday01_03_dao_crud\src\main\resources" />
+      <recent name="C:\Users\Liu\Documents\GitHub\ssmLearn\mybatisday01_03_da0_crud\src\main\resources" />
+      <recent name="C:\Users\Liu\Documents\GitHub\ssmLearn\mybatisday01_03_da0_crud\src\main\java" />
+      <recent name="C:\Users\Liu\Documents\GitHub\ssmLearn\mybatisday01_02_annotation\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MybatisTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_01_quish_start" />
+  <component name="RunManager" selected="JUnit.MybatisTest2.findCountTest">
+    <configuration name="MybatisTest2.deleteEmpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.neusoft.test.*" />
@@ -58,8 +68,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.neusoft.test" />
-      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest1" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest2" />
+      <option name="METHOD_NAME" value="deleteEmpTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2.findCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest2" />
+      <option name="METHOD_NAME" value="findCountTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2.findLikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest2" />
+      <option name="METHOD_NAME" value="findLikeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2.insertEmpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest2" />
+      <option name="METHOD_NAME" value="insertEmpTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest2.updateEmpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MybatisTest2" />
+      <option name="METHOD_NAME" value="updateEmpTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,7 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest1.test1" />
+        <item itemvalue="JUnit.MybatisTest2.findCountTest" />
+        <item itemvalue="JUnit.MybatisTest2.findLikeTest" />
+        <item itemvalue="JUnit.MybatisTest2.deleteEmpTest" />
+        <item itemvalue="JUnit.MybatisTest2.updateEmpTest" />
+        <item itemvalue="JUnit.MybatisTest2.insertEmpTest" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +159,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599094701275</updated>
-      <workItem from="1599094712019" duration="7462000" />
+      <workItem from="1599094712019" duration="19702000" />
+      <workItem from="1599128920819" duration="5965000" />
+      <workItem from="1599179633488" duration="10321000" />
     </task>
     <servers />
   </component>
@@ -93,21 +173,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599098229434" />
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1599098185539">
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1599185174116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599098185539" />
-    <state x="462" y="122" key="FileChooserDialogImpl" timestamp="1599094787432">
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599185174116" />
+    <state x="442" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599103184885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599094787432" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1599100263836">
+    <state x="442" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1599103184885" />
+    <state x="462" y="122" key="FileChooserDialogImpl" timestamp="1599190080147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599100263836" />
-    <state x="57" y="0" key="new project wizard" timestamp="1599099930755">
+    <state x="462" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599190080147" />
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1599190529894">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599099930755" />
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599190529894" />
+    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1599190529894">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599190529894" />
+    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1599190529894">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599190529894" />
+    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1599190529894">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599190529894" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1599132761735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599132761735" />
+    <state x="482" y="144" key="chooseDestDirectoryDialog" timestamp="1599129404881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="144" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1599129404881" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1599179633469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599179633469" />
+    <state x="-7" y="0" width="1251" height="728" key="new project wizard" timestamp="1599190091627">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-7" y="0" width="1251" height="728" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599190091627" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599181192471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599181192471" />
   </component>
 </project>

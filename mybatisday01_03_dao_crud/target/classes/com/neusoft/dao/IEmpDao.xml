@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.dao.IEmpDao">
+
+<!--    查询-->
+    <select id="findAll" resultType="com.neusoft.domain.Emp">
+        select * from emp;
+    </select>
+
+<!--    // 通过empno进行查询-->
+
+    <select id="findByEmpno" parameterType="INT" resultType="com.neusoft.domain.Emp">
+        select * from emp where EMPNO = #{EMPNO}
+    </select>
+
+<!--    插入用户-->
+    <insert id="insertEmp" parameterType="com.neusoft.domain.Emp" >
+        insert into emp( EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO)
+        values (#{EMPNO},#{ENAME},#{JOB},#{MGR},#{HIREDATE},#{SAL},#{COMM},#{DEPTNO})
+    </insert>
+
+<!--    修改用户-->
+    <update id="updateEmp" parameterType="com.neusoft.domain.Emp">
+        update emp set ENAME=#{ENAME},JOB=#{JOB},MGR=#{MGR},
+        HIREDATE=#{HIREDATE},SAL=#{SAL},COMM=#{COMM},DEPTNO=#{DEPTNO}
+        where EMPNO=#{EMPNO}
+    </update>
+
+<!--    删除用户-->
+    <delete id="deleteEmp" parameterType="java.lang.Integer">
+        delete from emp where EMPNO = #{EMPNO}
+    </delete>
+
+<!--    模糊查询-->
+    <select id="findByEname" resultType="com.neusoft.domain.Emp" parameterType="java.lang.String">
+        select * from emp where JOB like #{JOB}
+    </select>
+
+<!--    查询总记录数-->
+    <select id="findCount" resultType="java.lang.Integer">
+        select count(*) from emp
+    </select>
+</mapper>
+
+

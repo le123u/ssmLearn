@@ -21,10 +21,8 @@
         </environment>
     </environments>
 
-    <!-- 指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件 -->
-    <mappers>
-<!--        <mapper resource="com/neusoft/dao/IUserDao.xml"/>-->
-<!--        Package用于指定dao接口所在包，当指定之后就不需要再写mapper以及resource或者class-->
-        <package name="com.neusoft.dao"></package>
-    </mappers>
+<!--    告知mybatis映射配置的位置-->
+   <mappers>
+       <mapper class="com.IUserDao"></mapper>
+   </mappers>
 </configuration>

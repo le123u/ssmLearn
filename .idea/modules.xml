@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatisday01_01_quish_start/mybatisday01_01_quish_start.iml" filepath="$PROJECT_DIR$/mybatisday01_01_quish_start/mybatisday01_01_quish_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisday01_02_annotation/mybatisday01_02_annotation.iml" filepath="$PROJECT_DIR$/mybatisday01_02_annotation/mybatisday01_02_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisday01_03_dao_crud/mybatisday01_03_dao_crud.iml" filepath="$PROJECT_DIR$/mybatisday01_03_dao_crud/mybatisday01_03_dao_crud.iml" />
     </modules>
   </component>
 </project>
