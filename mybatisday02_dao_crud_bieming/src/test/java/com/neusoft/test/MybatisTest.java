@@ -61,14 +61,14 @@ public class MybatisTest {
 
         User user = new User();
         user.setUsername("李白");
-        user.setBirthday(new Date());
-        user.setSex("女");
-        user.setAddress("李李李李李");
+        user.setUserbirthday(new Date());
+        user.setUsersex("女");
+        user.setUseraddress("李李李李李");
         System.out.println("保存之前"+user);
         int i = userDao.saveUser(user);
         System.out.println("影响的行数"+i);
         System.out.println("保存之后"+user);
-        System.out.println(user.getId());
+        System.out.println(user.getUserid());
 
     }
 
@@ -76,29 +76,30 @@ public class MybatisTest {
     public void testUpdate(){
 
         User user = new User();
-        user.setId(46);
+        user.setUserid(46);
         user.setUsername("李柏");
-        user.setBirthday(new Date());
-        user.setSex("女");
-        user.setAddress("零零零零");
+        user.setUserbirthday(new Date());
+        user.setUsersex("女");
+        user.setUseraddress("零零零零");
         System.out.println("更新之前"+user);
         int i = userDao.updateUser(user);
         System.out.println("影响的行数"+i);
         System.out.println("更新之前"+user);
-        System.out.println(user.getId());
+        System.out.println(user.getUserid());
 
     }
 
     @Test
     public void testDelete(){
-        int res = userDao.deleteUser(48);
+        int res = userDao.deleteUser(51);
         System.out.println("res:"+res);
 
     }
 
     @Test
     public void testLikeName(){
-        List<User> users = userDao.findByName("%李%");
+//        List<User> users = userDao.findByName("%李%");
+        List<User> users = userDao.findByName("白");
         for(User user : users){
             System.out.println(user);
         }

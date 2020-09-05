@@ -1,6 +1,8 @@
 package com.neusoft.test;
 
+import com.neusoft.dao.IEmpDao;
 import com.neusoft.dao.IUserDao;
+import com.neusoft.domain.Emp;
 import com.neusoft.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -18,7 +20,7 @@ import java.util.List;
 public class MybatisTest2 {
     private InputStream in;
     private SqlSession sqlSession;
-    private IUserDao userDao;
+    private IEmpDao empDao;
     // 在测试方法之前执行
     @Before
     public void init() throws IOException {
@@ -30,7 +32,7 @@ public class MybatisTest2 {
         // 3. 使用 工厂生产的 SqlSession对象
         sqlSession = factory.openSession();
         // 4. 使用SqlSession 创建Dao 接口 的代理对象
-        userDao = sqlSession.getMapper(IUserDao.class);
+        empDao = sqlSession.getMapper(IEmpDao.class);
     }
     @After
     public void destroy() throws IOException {
@@ -43,74 +45,68 @@ public class MybatisTest2 {
 
     @Test
     public void testFindAll(){
-        List<User> users = userDao.findAll();
-        for (User user : users){
-            System.out.println(user);
+        List<Emp> emps = empDao.findAll();
+        for (Emp emp : emps){
+            System.out.println(emp);
         }
     }
 
     @Test
-    public void testFindOne(){
-        User user = userDao.findById(45);
-
-        System.out.println(user);
-
-    }
-    @Test
-    public void testSave(){
-
-        User user = new User();
-        user.setUsername("李白");
-        user.setBirthday(new Date());
-        user.setSex("女");
-        user.setAddress("李李李李李");
-        System.out.println("保存之前"+user);
-        int i = userDao.saveUser(user);
-        System.out.println("影响的行数"+i);
-        System.out.println("保存之后"+user);
-        System.out.println(user.getId());
-
+    public void testFindByEmpno(){
+        Emp byEmpno = empDao.findByEmpno(7369);
+        System.out.println(byEmpno);
     }
 
     @Test
-    public void testUpdate(){
+    public void testInsertEmp(){
+        Emp emp = new Emp();
+        emp.setEmp_no(9001);
+        emp.setE_name("liu");
+        emp.setE_job("python");
+        emp.setMgr(6666);
+        emp.setHirdate(new Date());
+        emp.setSal(8899);
+        emp.setComm(100);
+        emp.setDept_no(30);
+        int i = empDao.insertEmp(emp);
+        System.out.println(i);
 
-        User user = new User();
-        user.setId(46);
-        user.setUsername("李柏");
-        user.setBirthday(new Date());
-        user.setSex("女");
-        user.setAddress("零零零零");
-        System.out.println("更新之前"+user);
-        int i = userDao.updateUser(user);
-        System.out.println("影响的行数"+i);
-        System.out.println("更新之前"+user);
-        System.out.println(user.getId());
+    }
+    @Test
+    public void testUpdateEmp(){
+        Emp emp = new Emp();
+        emp.setEmp_no(7934);
+        emp.setE_name("liu");
+        emp.setE_job("python");
+        emp.setMgr(6666);
+        emp.setHirdate(new Date());
+        emp.setSal(8899);
+        emp.setComm(100);
+        emp.setDept_no(30);
+        int i = empDao.updateEmp(emp);
+        System.out.println(i);
 
     }
 
     @Test
-    public void testDelete(){
-        int res = userDao.deleteUser(48);
-        System.out.println("res:"+res);
-
+    public void testDeleteEmp(){
+        int i = empDao.deleteEmp(8899);
+        System.out.println(i);
     }
 
     @Test
-    public void testLikeName(){
-        List<User> users = userDao.findByName("%李%");
-        for(User user : users){
-            System.out.println(user);
+    public void testLikeEmp(){
+        List<Emp> emps = empDao.likeEmp("C");
+        for(Emp emp:emps){
+            System.out.println(emp);
         }
     }
 
-
     @Test
-    public void testCount(){
-        int total = userDao.findTotal();
-        System.out.println(total);
+    public void testCountEmp(){
+        int i = empDao.countEmp();
+        System.out.println(i);
     }
-
 
 
 
