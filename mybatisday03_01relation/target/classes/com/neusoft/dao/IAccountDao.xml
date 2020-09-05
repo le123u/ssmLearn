@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.dao.IAccountDao">
+
+    <!--    配置查询结果的列名和实体属性名的对应关系-->
+    <!--    id给定一个唯一标识是给select标签引用-->
+    <!--    type是指实体类的权限定类名-->
+    <resultMap id="accountUserMap" type="account">
+        <!--        主键字段的对应-->
+        <!--            id指定主键-->
+        <id property="id" column="ID"></id>
+        <!--            result用于指定非主键-->
+        <!--            column 是数据库中列名 -->
+        <!--            property用于指定实体类-->
+        <result property="uid" column="UID"></result>
+        <result property="money" column="MONEY"></result>
+
+<!--        指定一对一映射关系，配置user内容-->
+        <association property="user" column="uid" javaType="user">
+            <id property="userid" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="userbirthday" column="birthday"></result>
+            <result property="usersex" column="sex"></result>
+            <result property="useraddress" column="address"></result>
+        </association>
+
+
+    </resultMap>
+
+    <!--    查询所有-->
+<!--        <select id="findAll" resultType="account">-->
+        <select id="findAll" resultMap="accountUserMap">
+                select u.*,a.ID as aid,a.Money,a.uid from  account a,user u where u.id = a.uid
+            </select>
+
+    <!--    查询所有 带用户名和地址-->
+    <select id="findAllAccount" resultType="accountuser">
+        select a.*,u.username,u.address from account a , user u where u.id = a.uid
+    </select>
+
+
+</mapper>
+
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.dao.IEmpDao">
+
+        <resultMap id="empMap" type="Emp">
+
+            <id property="emp_no" column="EMPNO"></id>
+
+            <result property="e_name" column="ENAME"></result>
+            <result property="e_job" column="JOB"></result>
+            <result property="mgr" column="MGR"></result>
+            <result property="hirdate" column="HIREDATE"></result>
+            <result property="sal" column="SAL"></result>
+            <result property="comm" column="COMM"></result>
+            <result property="dept_no" column="DEPTNO"></result>
+        </resultMap>
+
+<!--    查询所有-->
+        <select id="findAll" resultMap="empMap">
+            select * from emp
+        </select>
+
+<!--    通过empno进行查询-->
+    <select id="findByEmpno" resultMap="empMap" parameterType="INT">
+        select * from emp where EMPNO = #{emp_no}
+    </select>
+
+<!--    插入-->
+    <insert id="insertEmp" parameterType="emp" >
+        insert into emp (EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO)
+        values(#{emp_no},#{e_name},#{e_job},#{mgr},#{hirdate},#{sal},#{comm},#{dept_no})
+    </insert>
+
+<!--    修改-->
+    <update id="updateEmp" parameterType="emp">
+        update emp set EMPNO=#{emp_no},ENAME=#{e_name},JOB=#{e_job},MGR=#{mgr},
+       HIREDATE=#{hirdate},SAL=#{sal},COMM=#{comm},DEPTNO=#{dept_no} where EMPNO=#{emp_no}
+    </update>
+
+<!--    删除-->
+    <delete id="deleteEmp" parameterType="java.lang.Integer">
+        delete  from emp where EMPNO=#{emp_no}
+    </delete>
+
+<!--    like-->
+    <select id="likeEmp" resultMap="empMap" parameterType="java.lang.String">
+        select * from emp where JOB like '%${value}%'
+    </select>
+
+<!--    计数-->
+    <select id="countEmp" resultType="java.lang.Integer">
+        select count(*) from emp
+    </select>
+
+
+    <select id="findByCondition" resultMap="empMap" parameterType="Emp">
+        select * from emp
+        <where>
+            <if test="emp_no != null">
+                and EMPNO=#{emp_no}
+            </if>
+        </where>
+    </select>
+
+    <select id="findEmpByQueryVo" resultMap="empMap" parameterType="queryVo">
+        select * from emp where JOB like #{emp.e_job}
+   <!--         emp.e_job = queryVo.setEmp.setE_job -->
+    </select>
+
+    <select id="findEmpByEmpno" resultMap="empMap" parameterType="queryVo">
+        select * from emp
+        <where>
+            <if test="empnos != null and empnos.size() > 0">
+                <foreach collection="empnos" open="and EMPNO in (" close=")" item="emp_no" separator="," >
+                    #{emp_no}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+
+
+
+</mapper>
+
+
