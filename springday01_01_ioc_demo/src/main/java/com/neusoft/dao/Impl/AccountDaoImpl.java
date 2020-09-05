@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class AccountDaoImpl implements IAccountDao {
+
     private QueryRunner runner;
 
     public void setRunner(QueryRunner runner) {
@@ -48,7 +49,7 @@ public class AccountDaoImpl implements IAccountDao {
     @Override
     public void updateAccount(Account account) {
         try {
-            runner.update("update account set (name = ? , money = ? where id = ?)",account.getName(),account.getMoney(),account.getId());
+            runner.update("update account set name = ? , money = ? where id = ?",account.getName(),account.getMoney(),account.getId());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -57,7 +58,7 @@ public class AccountDaoImpl implements IAccountDao {
     @Override
     public void deleteAccount(Integer accountId) {
         try {
-            runner.update("delete from account where id = ?)",accountId);
+            runner.update("delete from account where id = ?",accountId);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

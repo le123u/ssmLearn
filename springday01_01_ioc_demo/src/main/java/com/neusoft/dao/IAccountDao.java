@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface IAccountDao {
 
-    List<Account> findAll() throws SQLException;
+    List<Account> findAll() ;
 
     Account findAccountById(Integer accountId);
 

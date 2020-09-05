@@ -34,6 +34,97 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+  <component name="RunManager" selected="JUnit.TestDao.testDeleteAccount">
+    <configuration name="TestDao.testDeleteAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestDao" />
+      <option name="METHOD_NAME" value="testDeleteAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestDao" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestDao" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testSaveAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestDao" />
+      <option name="METHOD_NAME" value="testSaveAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDao.testUpdateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_01_ioc_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestDao" />
+      <option name="METHOD_NAME" value="testUpdateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDao.testDeleteAccount" />
+        <item itemvalue="JUnit.TestDao.testUpdateAccount" />
+        <item itemvalue="JUnit.TestDao.testSaveAccount" />
+        <item itemvalue="JUnit.TestDao.testFindById" />
+        <item itemvalue="JUnit.TestDao.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599274392328</updated>
-      <workItem from="1599274396311" duration="2863000" />
+      <workItem from="1599274396311" duration="4871000" />
     </task>
     <servers />
   </component>
@@ -52,10 +143,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1599275626809">
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1599286001997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599275626809" />
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599286001997" />
+    <state width="1323" height="73" key="GridCell.Tab.0.bottom" timestamp="1599287190829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="73" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599287190829" />
+    <state width="1323" height="73" key="GridCell.Tab.0.center" timestamp="1599287190829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="73" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599287190829" />
+    <state width="1323" height="73" key="GridCell.Tab.0.left" timestamp="1599287190829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="73" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599287190829" />
+    <state width="1323" height="73" key="GridCell.Tab.0.right" timestamp="1599287190829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="73" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599287190829" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1599275615178">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
