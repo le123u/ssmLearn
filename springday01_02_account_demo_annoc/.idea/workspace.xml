@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb2dddcc-ce41-4ad2-8d8f-99b925d6069c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1h5970CwRtax3N6BhspTIjprcHD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestEmp.testDeleteEmp">
+    <configuration name="TestEmp.testDeleteEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_02_account_demo_annoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestEmp" />
+      <option name="METHOD_NAME" value="testDeleteEmp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmp.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_02_account_demo_annoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestEmp" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmp.testFinfById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_02_account_demo_annoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestEmp" />
+      <option name="METHOD_NAME" value="testFinfById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmp.testSaveEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_02_account_demo_annoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestEmp" />
+      <option name="METHOD_NAME" value="testSaveEmp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmp.testUpdateEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springday01_02_account_demo_annoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.TestEmp" />
+      <option name="METHOD_NAME" value="testUpdateEmp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestEmp.testDeleteEmp" />
+        <item itemvalue="JUnit.TestEmp.testUpdateEmp" />
+        <item itemvalue="JUnit.TestEmp.testSaveEmp" />
+        <item itemvalue="JUnit.TestEmp.testFinfById" />
+        <item itemvalue="JUnit.TestEmp.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb2dddcc-ce41-4ad2-8d8f-99b925d6069c" name="Default Changelist" comment="" />
+      <created>1599289914358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599289914358</updated>
+      <workItem from="1599289917819" duration="6005000" />
+      <workItem from="1599437857244" duration="1422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1599294247104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599294247104" />
+    <state width="1321" height="179" key="GridCell.Tab.0.bottom" timestamp="1599295938967">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599295278106" />
+    <state width="1321" height="179" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1599295938967" />
+    <state width="1321" height="179" key="GridCell.Tab.0.center" timestamp="1599295938967">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599295278106" />
+    <state width="1321" height="179" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1599295938967" />
+    <state width="1321" height="179" key="GridCell.Tab.0.left" timestamp="1599295938967">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599295278106" />
+    <state width="1321" height="179" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1599295938967" />
+    <state width="1321" height="179" key="GridCell.Tab.0.right" timestamp="1599295938967">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599295278106" />
+    <state width="1321" height="179" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1599295938967" />
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1599291007278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1599291007278" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1599290045545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599290045545" />
+    <state x="375" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1599437861015">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="375" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1599437861015" />
+    <state x="57" y="68" key="new project wizard" timestamp="1599439858419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599439858419" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1599291245793">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1599291245793" />
+  </component>
+</project>
